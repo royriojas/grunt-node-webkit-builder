@@ -48,7 +48,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "request": "~2.33.0",
+    "request": "~2.84.0",
     "unzip": "~0.1.9",
     "async": "~0.2.9",
     "tar": "~0.1.19",
