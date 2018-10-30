@@ -32,7 +32,9 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "*",
@@ -48,7 +50,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "request": "~2.33.0",
+    "request": "~2.81.0",
     "unzip": "~0.1.9",
     "async": "~0.2.9",
     "tar": "~0.1.19",
@@ -57,6 +59,8 @@
     "zip": "~1.1.1",
     "plist": "~0.4.3",
     "q": "~1.0.0",
-    "lodash": "~2.4.1"
-  }
+    "lodash": "~2.4.1",
+    "snyk": "^1.105.0"
+  },
+  "snyk": true
 }
